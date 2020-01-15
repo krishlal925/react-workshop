@@ -10,7 +10,7 @@ function userApp(){
       {
         data.users.map(user => {
           return(
-            <div key= {user.name}>
+            <div class = "card" key= {user.id}>
             { user.name }
 
             </div>)

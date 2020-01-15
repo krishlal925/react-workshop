@@ -10,7 +10,7 @@ function productApp(){
       {
         data.products.map(product => {
           return(
-            <div key= {product.id}>
+            <div class = "card" key= {product.id}>
             { product.name }
             <br/>
             made from {product.material}

@@ -9,7 +9,7 @@ function companyApp(){
       {
         data.companies.map(company => {
           return(
-            <div key= {company.id}>
+            <div class = "card" key= {company.id}>
             { company.name }
             <br/>
             in {company.state}
