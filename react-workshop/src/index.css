@@ -15,12 +15,12 @@ code {
 div {
   display: flex;
 }
-div > div{
+div > div >div{
   flex-direction: column;
 
 }
 
-div > div > div {
+div > div > div >div {
   border: solid 1px black;
   margin: 1rem
 }
